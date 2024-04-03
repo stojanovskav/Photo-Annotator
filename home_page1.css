@@ -1,0 +1,202 @@
+/* home_page.css */
+body {
+  background-color: #D8E9E3;
+}
+
+
+
+/* Logout Container */
+.logout-container {
+  text-align: right;
+  padding: 10px;
+}
+
+.logout-container button {
+background-color: #A8D2C4;
+border-radius: 100px;
+box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+color: green;
+cursor: pointer;
+display: inline-block;
+font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+padding: 7px 20px;
+text-align: center;
+text-decoration: none;
+transition: all 250ms;
+border: 0;
+font-size: 16px;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+}
+
+.logout-container button:hover{
+box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+transform: scale(1.05) rotate(-1deg);
+}
+
+/* Upload Form */
+.upload-form {
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+  max-width: 400px;
+  padding: 15px;
+  background-color: #a8c7bd;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: #4B6672;
+  border-width: 1px;
+}
+
+.btn-upload {
+  background-color: #8f9f9f;
+  border-radius: 5px;
+  box-shadow: rgba(103, 110, 106, 0.2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(129, 129, 129, 0.15) 0 2px 4px,rgba(160, 160, 160, 0.15) 0 4px 8px,rgba(116, 116, 116, 0.15) 0 8px 16px,rgba(8, 8, 8, 0.15) 0 16px 32px;
+  color: rgba(29, 27, 27, 0.845);
+  cursor: pointer;
+  display: inline-block;
+  padding: 2px 7px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border-style: solid;
+  border-width: 1px;
+  font-size: 15px;
+  border-color: rgb(28, 72, 68);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btn-upload:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0 -25px 18px -14px inset,rgba(65, 65, 65, 0.25) 0 1px 2px,rgba(111, 111, 111, 0.25) 0 2px 4px,rgba(177, 177, 177, 0.25) 0 4px 8px,rgba(169, 169, 169, 0.25) 0 8px 16px,rgba(60, 59, 59, 0.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+  }
+
+
+.file-label {
+  background-color: #c2fbec;
+  border-radius: 9px;
+  box-shadow: rgba(44, 187, 139, 0.2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.file-label:hover{
+  box-shadow: rgba(44, 187, 173, 0.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+  
+  .file-label span {
+    display: inline-block;
+  }
+  
+  input[type="file"] {
+    display: none;
+  }
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.upload-form input[type="file"] {
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+/* Photo Container */
+#photo-container {
+  margin-top: 30px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#photo-container div {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#photo-container img {
+  width: 100%;
+  height: auto;
+  max-width: none;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.uploaded-photo {
+  width: 650px;
+  height: 400px;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+}
+
+#photo-container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+#photo-container ul li {
+  margin-bottom: 5px;
+}
+
+#photo-container ul li button {
+  color: #111111;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+#photo-container ul li button:hover {
+  background-color: #71bb6a; 
+}
+
+#photo-container .delete-form {
+  margin-top: 10px;
+}
+
+#photo-container .delete-form input[type="button"] {
+  background-color: #8f9f9f;
+  border-radius: 9px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -25px 18px -14px inset,rgba(187, 44, 44, 0.15) 0 1px 2px,rgba(187, 44, 44, 0.15) 0 2px 4px,rgba(187, 44, 44, 0.15) 0 4px 8px,rgba(187, 44, 44, 0.15) 0 8px 16px,rgba(137, 29, 29, 0.15) 0 16px 32px;
+  color: rgb(220, 65, 65);
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+#photo-container .delete-form input[type="button"]:hover {
+  box-shadow: rgb(239, 7, 7) 0 -25px 18px -14px inset,rgba(91, 10, 10, 0.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+  color:rgb(81, 1, 1)
+}
